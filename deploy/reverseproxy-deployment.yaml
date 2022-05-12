@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: 49shine/reverseproxy:v1
+      - image: thumth/reverseproxy:v1
         name: reverseproxy
         imagePullPolicy: Always
         resources:
